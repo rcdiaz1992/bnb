@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bille_green">#26B460</color>
+    <color name="bille_green_dark">#1E9550</color>
+    <color name="bille_green_disabled">#B7DCC6</color>
+    <color name="bille_purple">#6E4981</color>
+    <color name="bille_mint">#EBF8F1</color>
+    <color name="bille_text">#1C1C1E</color>
+    <color name="bille_text_secondary">#6B7280</color>
+    <color name="bille_input_stroke">#D5E6DC</color>
+    <color name="bille_error">#BA1A1A</color>
+    <color name="bille_warning">#F6C445</color>
+    <color name="bille_warning_icon">#8A5A00</color>
+    <color name="bille_progress_track">#66FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="dot_idle">#D5D5DA</color>
+    <color name="skin">#F6C7A1</color>
+    <color name="shirt_blue">#4C9BEF</color>
+    <color name="shirt_indigo">#6C7CFF</color>
+    <color name="sun">#FFD15C</color>
+    <color name="ic_launcher_background">#26B460</color>
+</resources>

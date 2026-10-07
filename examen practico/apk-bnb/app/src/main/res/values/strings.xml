@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bille</string>
+    <string name="step_counter">PASO %1$d / %2$d</string>
+    <string name="step_information">Información</string>
+    <string name="step_authentication">Autenticación</string>
+    <string name="enter_your_data">Ingresa tus datos</string>
+    <string name="enter_your_data_subtitle">¡Únete a nuestra app hoy!\nCompleta los siguientes datos para comenzar a disfrutar de tu Bille.</string>
+    <string name="phone_label">Número de celular:</string>
+    <string name="carnet_label">Número de carnet:</string>
+    <string name="complement_label">Complemento (opcional):</string>
+    <string name="has_complement">¿Tiene complemento?</string>
+    <string name="action_next">Siguiente</string>
+    <string name="action_saving">Guardando…</string>
+    <string name="action_continue">Continuar</string>
+    <string name="field_counter">%1$d/%2$d</string>
+    <string name="error_phone">Ingresa un celular numérico de hasta 8 dígitos.</string>
+    <string name="error_carnet">El carnet debe tener 10 dígitos, sin letras ni símbolos.</string>
+    <string name="error_complement">El complemento debe tener 2 letras o números, sin caracteres especiales.</string>
+    <string name="enable_location_title">Activa tu ubicación</string>
+    <string name="enable_location_body">Para continuar con la creación de tu Bille, es necesario que actives la ubicación en tu dispositivo.</string>
+    <string name="location_permission_required">Necesitamos el permiso de ubicación antes de continuar.</string>
+    <string name="auth_recommendation">Antes de comenzar con la prueba de autenticación, te recomendamos:</string>
+    <string name="auth_lighting">Sitúate en un lugar con buena iluminación.</string>
+    <string name="auth_ready">Datos guardados en el dispositivo. El servicio ya se consumió con la ubicación autorizada.</string>
+    <string name="save_failed">No se pudo guardar el registro. Intenta de nuevo.</string>
+    <string name="play_recommendation">Escuchar la recomendación</string>
+    <string name="back">Volver</string>
+</resources>

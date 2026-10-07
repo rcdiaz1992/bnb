@@ -59,6 +59,11 @@
         <item name="shapeAppearance">@style/ShapeAppearance.Bille.BottomSheet</item>
     </style>
 
+    <style name="ShapeAppearance.Bille.GuidePhoto" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">20dp</item>
+    </style>
+
     <style name="ShapeAppearance.Bille.BottomSheet" parent="">
         <item name="cornerFamily">rounded</item>
         <item name="cornerSizeTopLeft">28dp</item>

@@ -21,7 +21,16 @@
     <string name="enable_location_body">Para continuar con la creación de tu Bille, es necesario que actives la ubicación en tu dispositivo.</string>
     <string name="location_permission_required">Necesitamos el permiso de ubicación antes de continuar.</string>
     <string name="auth_recommendation">Antes de comenzar con la prueba de autenticación, te recomendamos:</string>
-    <string name="auth_lighting">Sitúate en un lugar con buena iluminación.</string>
+    <string name="auth_lighting">Asegúrate de que el rostro esté bien iluminado de frente.</string>
+    <string name="guide_good_light">Con luz</string>
+    <string name="guide_good_light_body">El rostro debe verse bien iluminado y visible.</string>
+    <string name="guide_no_cap">Sin gorra</string>
+    <string name="guide_no_cap_body">Quítate la gorra antes de tomar la foto.</string>
+    <string name="guide_no_glasses">Sin lentes</string>
+    <string name="guide_no_glasses_body">Quítate los lentes y cualquier accesorio.</string>
+    <string name="guide_ready">Listo</string>
+    <string name="guide_ready_body">El rostro está despejado para la verificación.</string>
+    <string name="action_finish">Finalizar</string>
     <string name="auth_ready">Datos guardados en el dispositivo. El servicio ya se consumió con la ubicación autorizada.</string>
     <string name="save_failed">No se pudo guardar el registro. Intenta de nuevo.</string>
     <string name="play_recommendation">Escuchar la recomendación</string>

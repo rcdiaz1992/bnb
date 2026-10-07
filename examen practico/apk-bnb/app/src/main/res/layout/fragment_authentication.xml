@@ -50,60 +50,40 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <TextView
+                android:id="@+id/guideKicker"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="@string/auth_recommendation"
                 android:textColor="@color/bille_purple"
                 android:textSize="15sp" />
 
             <TextView
+                android:id="@+id/guideBody"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="6dp"
                 android:gravity="center"
-                android:text="@string/auth_lighting"
                 android:textColor="@color/bille_text"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
-            <ImageView
-                android:layout_width="280dp"
-                android:layout_height="220dp"
-                android:layout_marginTop="28dp"
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/guidePhoto"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="24dp"
+                android:layout_weight="1"
                 android:contentDescription="@string/auth_lighting"
-                android:src="@drawable/ic_lighting_scene" />
+                android:scaleType="centerCrop"
+                app:shapeAppearanceOverlay="@style/ShapeAppearance.Bille.GuidePhoto" />
 
             <LinearLayout
+                android:id="@+id/guideDots"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
+                android:layout_marginTop="16dp"
                 android:gravity="center"
-                android:orientation="horizontal">
-
-                <View
-                    android:layout_width="8dp"
-                    android:layout_height="8dp"
-                    android:background="@drawable/bg_dot_selected" />
-
-                <View
-                    android:layout_width="8dp"
-                    android:layout_height="8dp"
-                    android:layout_marginStart="8dp"
-                    android:background="@drawable/bg_dot" />
-
-                <View
-                    android:layout_width="8dp"
-                    android:layout_height="8dp"
-                    android:layout_marginStart="8dp"
-                    android:background="@drawable/bg_dot" />
-
-                <View
-                    android:layout_width="8dp"
-                    android:layout_height="8dp"
-                    android:layout_marginStart="8dp"
-                    android:background="@drawable/bg_dot" />
-            </LinearLayout>
+                android:orientation="horizontal" />
         </LinearLayout>
 
         <com.google.android.material.button.MaterialButton
